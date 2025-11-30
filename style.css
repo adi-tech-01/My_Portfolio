@@ -2,8 +2,59 @@
   background-color: #EFE9E3;
 }
 @media (max-width: 600px) {
-}
+    /* UNIVERSAL FONT SIZE ADJUSTMENT */
+    body {
+        font-size: 16px; 
+    }
 
+    /* 1. NAVBAR FIX: STACKS LINKS VERTICALLY */
+    #navbar {
+        flex-direction: column; /* Stack items */
+        align-items: center;    /* Center the stacked items */
+        gap: 15px;              /* Space between links */
+        padding: 15px 0;
+    }
+    #navbar a {
+        font-size: 20px; /* Make link text smaller */
+    }
+
+    /* 2. INTRO FIX: STACKS IMAGE AND TEXT */
+    #intro {
+        flex-direction: column; /* Stack the image and text */
+        gap: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* 3. PROFILE PICTURE FIX */
+    #profile-pic {
+        height: 200px; /* Shrink the image */
+        width: 200px;
+        margin-top: 15px;
+    }
+
+    /* 4. EDUCATION/EXPERIENCE FIX: STACKS LOGOS AND DETAILS */
+    #edu-block {
+        flex-direction: column; /* Stack logo and details */
+        gap: 15px;
+        padding: 15px;
+        max-width: 95%; /* Use almost full width */
+        margin: 20px auto;
+    }
+    #logo {
+        margin-right: 0; /* Remove desktop margin */
+        height: 100px;  /* Shrink the logos */
+    }
+
+    /* 5. SKILLS FIX: STACKS SKILL COLUMNS */
+    #skills {
+        flex-direction: column;
+        gap: 30px;
+        padding: 15px;
+        font-size: 18px; /* Reduce font size */
+        align-items: flex-start; /* Align skills text neatly */
+    }
+}
 /* INDEX */
 #navbar {
   display: flex;
@@ -134,7 +185,7 @@
   padding-bottom: 10px;
   text-align: center;
 }
-#porjects_style {
+#projects_style {
   background-color: #ffffff;
   border-radius: 15px;
   padding: 20px 25px;
