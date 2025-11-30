@@ -1,0 +1,193 @@
+* {
+  background-color: #EFE9E3;
+}
+@media (max-width: 600px) {
+}
+
+/* INDEX */
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 10px;
+}
+#navbar a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 780;
+  color: black;
+  font-family: monospace;
+}
+#intro {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 40px;
+  font-family: Courier;
+}
+#intro-text p {
+  font-family: Courier;
+  font-size: 18px;
+  font-weight: 550;
+}
+#intro-text h4 {
+  font-family: Courier;
+  font-weight: 600;
+  font-size: 18px;
+}
+#profile-pic {
+  height: 500px;
+  width: 500px;
+  border-radius: 100%;
+  border: 4px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+  object-fit: cover;
+  margin-top: 30px;
+}
+#contact {
+  display: inline-block;
+  padding: 10px 24px;
+  background-color: #4125099e;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+}
+
+/* EDUCATION */
+
+#head {
+  font-family: verdana;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.9rem;
+}
+#edu-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px auto;
+  padding: 30px;
+  max-width: 900px;
+  background-color: #ffffff10;
+  border-radius: 10px;
+  background-color: #EFE9E3;
+}
+#logo {
+  height: 200px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  align-items: center;
+  margin-right: 100px;
+  background-color: #EFE9E3;
+}
+#details {
+  line-height: 1.6;
+  font-family: Courier;
+  font-size: 16px;
+  background-color: #EFE9E3;
+}
+
+/* SKILLS */
+#head {
+  font-family: verdana;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.9rem;
+}
+#skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.6;
+  font-family: Courier;
+  font-size: 24px;
+  background-color: #EFE9E3;
+  gap: 75px;
+  margin: 40px auto;
+  padding: 30px;
+}
+
+/* Projects */
+#projects_style {
+  margin: 40px auto;
+  padding: 0 20px;
+}
+#projects_style h1 {
+  font-size: 2 rem;
+  margin-bottom: 30px;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  text-align: center;
+}
+#projects_style h2 {
+  font-size: 2 rem;
+  margin-bottom: 30px;
+  color: #333;
+  border-top: 2px solid #ddd;
+  padding-bottom: 10px;
+  text-align: center;
+}
+#porjects_style {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px regba(0, 0, 0, 0.06);
+}
+#projects_styel p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Contact */
+#contact-card {
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  padding: 30px;
+  max-width: 450px;
+  margin: auto;
+}
+
+#contact-card h2 {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+#contact-card h3 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+#contact-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#contact-card li {
+  margin: 18px 0; /* More space between each detail */
+  font-size: 20px; /* Bigger text for details */
+  line-height: 1.8; /* Spacious lines */
+}
+
+#contact-card a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.2s ease-in-out;
+}
+
+#contact-card a:hover {
+  color: #6A5ACD; /* Purple hover */
+}
